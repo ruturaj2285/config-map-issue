@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configs    # Kustomize WILL add hash automatically
+data:
+  MESSAGE: "base-message"
